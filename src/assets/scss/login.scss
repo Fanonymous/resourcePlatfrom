@@ -1,0 +1,52 @@
+
+.login-header{
+    margin: 20px 0px 20px 200px;
+    position: relative;
+}
+.login-header img{
+    height: 55px;
+}
+.login-header-text{
+    position: absolute;
+    display: inline-block;
+    font-size: 32px;
+    font-weight:500;
+    text-transform: uppercase;
+    color: #333333;
+    margin: 8px 0px 0px 15px;
+}
+.footer-main {
+    width: 100%;
+    text-align: center;
+}
+.login-main {
+    position: absolute;
+    top: 0;
+    right: 16%;
+    margin: 200px 60px 180px;
+    width: 380px;
+    min-height: 360px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 10px 20px 0px 20px;
+}
+.login-title {
+    text-align: center;
+    font-size: 16px;
+}
+.login-captcha {
+    overflow: hidden;
+    >img {
+        width: 100%;
+        cursor: pointer;
+    }
+}
+.login-btn-submit {
+    width: 100%;
+    margin-top: 38px !important;
+}
+.login-cont-bg{
+    height: 620px;
+    background-image: url(~@/assets/img/bg.png);
+    background-size: cover;
+}
